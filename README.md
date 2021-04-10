@@ -1,4 +1,4 @@
- <h1> Hello there 👋 I'm Pushpendra </h1>
+ <h1> Hello there <img src="https://github.com/Aniruddh-482/Aniruddh-482/blob/main/My_Assets/Hi.gif" alt = "hi" width="40px" height="40px"> I'm Pushpendra </h1>
  
   <a> I'm from Madhya Pradesh, India currently a 1st year Engineering student.  I'm interested in Robotics, Coding, Gaming and learning new stuff. 
         As a Computer Science student during my 11th-12th grade I know C++ at beginner-intermediate level.  Currently I am learning Python. </a>
