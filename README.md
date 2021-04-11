@@ -1,3 +1,4 @@
+<div align="center">
  <h1> Hello there <img src="https://github.com/Aniruddh-482/Aniruddh-482/blob/main/My_Assets/Hi.gif" alt = "hi" width="40px" height="40px"> I'm Pushpendra </h1>
  
   <a> I'm from Madhya Pradesh, India currently a 1st year Engineering student.  I'm interested in Robotics, Coding, Gaming and learning new stuff. 
@@ -11,7 +12,7 @@
    
   [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Pushpendra766&layout=compact)](https://github.com/Pushpendra766/github-readme-stats)
 
-<div align="center">
+
 
 <h2 >
 Connect with me<img src="https://github.com/Aniruddh-482/Aniruddh-482/blob/main/My_Assets/Handshake.gif" height="32px">
