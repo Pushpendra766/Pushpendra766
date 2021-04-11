@@ -11,3 +11,17 @@
    
   [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Pushpendra766&layout=compact)](https://github.com/Pushpendra766/github-readme-stats)
 
+<div align="center">
+
+<h2 >
+Connect with me<img src="https://github.com/Aniruddh-482/Aniruddh-482/blob/main/My_Assets/Handshake.gif" height="32px">
+</h2>
+
+[<img src="https://github.com/Aniruddh-482/Aniruddh-482/blob/main/My_Assets/linkedin-in-icon-logo-2E34704F04-seeklogo.com.png" alt="Linkedin Logo" width="32">](https://www.linkedin.com/in/pushpendra-chandravanshi-0938a5166/)  [<img src="https://github.com/Aniruddh-482/Aniruddh-482/blob/main/My_Assets/twitter-logo-7249D46199-seeklogo.com.png" alt="Twitter Logo" width="30">](https://twitter.com/__pushpendra__)  
+
+
+</div>
+
+<br>
+
+<hr>
