@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Pushpendra</h1>
-<h3 align="center">A passionate frontend developer and tech enthusiast from India.</h3>
+<h3 align="center">A passionate frontend developer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pushpendra766&label=Profile%20views&color=0e75b6&style=flat" alt="pushpendra766" /> </p>
 
@@ -13,14 +13,16 @@
 
 -   📫 How to reach me **pushpendrachandravanshi4@gmail.com**
 
--   🌐 Web: [Pushpendra Chandravanshi](http://pushpendra766.github.io/cv)
+-   🌐 Web: [Pushpendra Chandravanshi](http://pushpendra766.github.io)
 
 ### 🔗 Connect with me:
+
 [![Gmail Badge](https://img.shields.io/badge/-eMail-D14836?logo=Gmail&logoColor=white&link=mailto:pushpendrachandravanshi4@gmail.com)](mailto:pushpendrachandravanshi4@gmail.com)
 [![Linkedin Badge](https://img.shields.io/badge/-Pushpendra%20Chandravanshi-blue?logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pushpendra-chandravanshi-0938a5166/)](https://www.linkedin.com/in/pushpendra-chandravanshi-0938a5166/)
 [![Twitter](https://img.shields.io/badge/@__pushpendra__-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/__pushpendra__)
 
 ### ⚡ Languages and Frameworks:
+
 [![C++](https://img.shields.io/badge/c++-%2300599C.svg?logo=c%2B%2B&logoColor=white)](#)
 [![Python](https://img.shields.io/badge/-Python-yellow?logo=Python)](#)
 [![JavaScript](https://img.shields.io/badge/-JavaScript-blue?logo=javascript)](#)
@@ -59,5 +61,5 @@
 <p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=pushpendra766&show_icons=true&locale=en" alt="pushpendra766" /></p>
 <br/>
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pushpendra766&" alt="pushpendra766" /></p>
+
 ### Show ❤️ by 🌟 my [repositories](https://github.com/pushpendra766?tab=repositories)!
-</div>
