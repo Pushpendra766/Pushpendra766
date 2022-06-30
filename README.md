@@ -13,7 +13,7 @@
 
 -   📫 How to reach me **pushpendrachandravanshi4@gmail.com**
 
--   🌐 Web: [Pushpendra Chandravanshi](http://pushpendra766.github.io)
+-   🌐 Web: [Pushpendra Chandravanshi](http://pushpendra766.github.io/cv)
 
 ### 🔗 Connect with me:
 [![Gmail Badge](https://img.shields.io/badge/-eMail-D14836?logo=Gmail&logoColor=white&link=mailto:pushpendrachandravanshi4@gmail.com)](mailto:pushpendrachandravanshi4@gmail.com)
