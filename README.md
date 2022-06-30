@@ -13,7 +13,7 @@
 
 -   📫 How to reach me **pushpendrachandravanshi4@gmail.com**
 
--   🌐 Web: [Pushpendra Chandravanshi](http://pushpendra766.github.io)
+-   🌐 Web: [Pushpendra Chandravanshi](http://pushpendra766.github.io/cv)
 
 ### 🔗 Connect with me:
 
