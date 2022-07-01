@@ -17,9 +17,10 @@
 
 ### 🔗 Connect with me:
 
-[![Gmail Badge](https://img.shields.io/badge/-eMail-D14836?logo=Gmail&logoColor=white&link=mailto:pushpendrachandravanshi4@gmail.com)](mailto:pushpendrachandravanshi4@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-Email-D14836?logo=Gmail&logoColor=white&link=mailto:pushpendrachandravanshi4@gmail.com)](mailto:pushpendrachandravanshi4@gmail.com)
 [![Linkedin Badge](https://img.shields.io/badge/-Pushpendra%20Chandravanshi-blue?logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pushpendra-chandravanshi-0938a5166/)](https://www.linkedin.com/in/pushpendra-chandravanshi-0938a5166/)
 [![Twitter](https://img.shields.io/badge/@__pushpendra__-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/__pushpendra__)
+[![Linktree Badge](https://img.shields.io/badge/-Linktree-36d15?logo=Link&logoColor=white)](https://linktr.ee/pushpendra766)
 
 ### ⚡ Languages and Frameworks:
 
@@ -29,7 +30,7 @@
 [![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)](#)
 [![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3)](#)
 [![React](https://img.shields.io/badge/-React-darkblue?logo=React)](#)
-[![Expo](https://img.shields.io/badge/-Expo-black?logo=expo)](#)
+[![Next](https://img.shields.io/badge/-Next-gray?logo=Next)](#)
 [![Scss](https://img.shields.io/badge/-Scss-pink?logo=sass)](#)
 [![React Native](https://img.shields.io/badge/-React%20Native-darkblue?logo=React)](#)
 [![Tailwindcss](https://img.shields.io/badge/-Tailwindcss-blue?logo=tailwindcss&logoColor=white)](#)
@@ -53,6 +54,7 @@
   <a href="#"><img alt="OBS Studio" src="https://img.shields.io/badge/-OBS%20Studio-302E31?logo=obs-studio&logoColor=white"></a>
   <a href="#"><img alt="Stack Overflow" src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?logo=stack-overflow&logoColor=white"></a>
   <a href="#"><img alt="Canva" src="https://img.shields.io/badge/Canva-%2300C4CC.svg?logo=Canva&logoColor=white"></a>
+  <a href="#"><img alt="Canva" src="https://img.shields.io/badge/-Figma-3655d1?logo=figma&logoColor=white"></a>
 </p>
 
 <br/>
