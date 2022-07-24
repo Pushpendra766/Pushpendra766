@@ -4,7 +4,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pushpendra766&label=Profile%20views&color=0e75b6&style=flat" alt="pushpendra766" /> 
 </p>
 
-[![wakatime](https://wakatime.com/badge/user/c71b52b7-2fbc-485b-8dd4-365ea739abd8.svg)](https://wakatime.com/@c71b52b7-2fbc-485b-8dd4-365ea739abd8)
+<a href="https://wakatime.com/@c71b52b7-2fbc-485b-8dd4-365ea739abd8"><img src="https://wakatime.com/badge/user/c71b52b7-2fbc-485b-8dd4-365ea739abd8.svg" alt="Total time coded since May 26 2022" /></a>
 
 -   🔭 I’m currently working on **Mobile App with React Native**
 
