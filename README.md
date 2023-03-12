@@ -38,6 +38,8 @@
 [![React Native](https://img.shields.io/badge/-React%20Native-darkblue?logo=React)](#)
 [![Tailwindcss](https://img.shields.io/badge/-Tailwindcss-blue?logo=tailwindcss&logoColor=white)](#)
 [![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?logo=bootstrap)](#)
+[![Cypress](https://img.shields.io/badge/-Cypress?logo=cypress)](#)
+[![Firebase](https://img.shields.io/badge/-Firebase?logo=firebase)](#)
 
 ### 🛠 Software and tools:
 
