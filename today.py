@@ -323,20 +323,75 @@ def stars_counter(data):
     return total_stars
 
 
+SVG_NS = 'http://www.w3.org/2000/svg'
+CHAR_WIDTH = 10.35  # monospace char width at 17px with Consolas 109% size-adjust
+ASCII_X = 8
+TEXT_X = 400
+RIGHT_PADDING = 20
+
+
+def svg_line_text(text_elem, line_start_x):
+    """
+    Reconstructs each rendered line from an SVG <text> block.
+    """
+    line_start_x = str(line_start_x)
+    lines, current = [], []
+
+    def add(fragment):
+        if fragment:
+            current.append(fragment)
+
+    add(text_elem.text)
+    for child in text_elem:
+        if not child.tag.endswith('tspan'):
+            continue
+        if child.get('x') == line_start_x:
+            if current:
+                lines.append(''.join(current))
+            current = []
+        add(child.text)
+        for subchild in child:
+            add(subchild.text)
+            add(subchild.tail)
+        add(child.tail)
+    if current:
+        lines.append(''.join(current))
+    return lines
+
+
+def svg_resize(root):
+    """
+    Sets SVG width to fit the longest info line without clipping.
+    """
+    max_chars = 0
+    for text_elem in root.findall(f".//{{{SVG_NS}}}text"):
+        if text_elem.get('x') != str(TEXT_X):
+            continue
+        for line in svg_line_text(text_elem, TEXT_X):
+            max_chars = max(max_chars, len(line))
+    width = int(TEXT_X + max_chars * CHAR_WIDTH + RIGHT_PADDING)
+    root.set('width', f'{width}px')
+    background = root.find(f".//{{{SVG_NS}}}rect")
+    if background is not None:
+        background.set('width', f'{width}px')
+
+
 def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
     """
     Parse SVG files and update elements with my age, commits, stars, repositories, and lines written
     """
     tree = etree.parse(filename)
     root = tree.getroot()
-    justify_format(root, 'commit_data', commit_data, 22)
-    justify_format(root, 'star_data', star_data, 14)
+    justify_format(root, 'age_data', age_data.split(' 🎂')[0], 26)
+    justify_format(root, 'commit_data', commit_data, 31)
+    justify_format(root, 'star_data', star_data, 22)
     justify_format(root, 'repo_data', repo_data, 6)
     justify_format(root, 'contrib_data', contrib_data)
     justify_format(root, 'follower_data', follower_data, 10)
-    justify_format(root, 'loc_data', loc_data[2], 9)
+    justify_format(root, 'loc_data', loc_data[2], 13)
     justify_format(root, 'loc_add', loc_data[0])
     justify_format(root, 'loc_del', loc_data[1], 7)
+    svg_resize(root)
     tree.write(filename, encoding='utf-8', xml_declaration=True)
 
 
