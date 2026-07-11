@@ -161,7 +161,8 @@ def loc_counter_one_repo(owner, repo_name, data, cache_comment, history, additio
     only adds the LOC value of commits authored by me
     """
     for node in history['edges']:
-        if node['node']['author']['user'] == OWNER_ID:
+        author = node['node']['author']['user']
+        if author and author.get('id') == OWNER_ID:
             my_commits += 1
             addition_total += node['node']['additions']
             deletion_total += node['node']['deletions']
@@ -220,6 +221,7 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
     Checks each repository in edges to see if it has been updated since the last time it was cached
     If it has, run recursive_loc on that repository to update the LOC count
     """
+    edges = [edge for edge in edges if edge is not None and edge.get('node') is not None and edge['node'].get('nameWithOwner')]
     cached = True # Assume all repositories are cached
     filename = 'cache/'+hashlib.sha256(USER_NAME.encode('utf-8')).hexdigest()+'.txt' # Create a unique filename for each user
     try:
@@ -234,6 +236,7 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
 
     if len(data)-comment_size != len(edges) or force_cache: # If the number of repos has changed, or force_cache is True
         cached = False
+        print(f'   Rebuilding LOC cache for {len(edges)} repositories (this may take a while)...', flush=True)
         flush_cache(edges, filename, comment_size)
         with open(filename, 'r') as f:
             data = f.readlines()
@@ -244,11 +247,13 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
         repo_hash, commit_count, *__ = data[index].split()
         if repo_hash == hashlib.sha256(edges[index]['node']['nameWithOwner'].encode('utf-8')).hexdigest():
             try:
-                if int(commit_count) != edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']:
-                    # if commit count has changed, update loc for that repo
+                total_count = edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']
+                if not cached or int(commit_count) != total_count:
+                    # if cache was flushed or commit count has changed, update loc for that repo
                     owner, repo_name = edges[index]['node']['nameWithOwner'].split('/')
+                    print(f'   LOC {index + 1}/{len(edges)}: {owner}/{repo_name} ({total_count} commits)', flush=True)
                     loc = recursive_loc(owner, repo_name, data, cache_comment)
-                    data[index] = repo_hash + ' ' + str(edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']) + ' ' + str(loc[2]) + ' ' + str(loc[0]) + ' ' + str(loc[1]) + '\n'
+                    data[index] = repo_hash + ' ' + str(total_count) + ' ' + str(loc[2]) + ' ' + str(loc[0]) + ' ' + str(loc[1]) + '\n'
             except TypeError: # If the repo is empty
                 data[index] = repo_hash + ' 0 0 0 0\n'
     with open(filename, 'w') as f:
@@ -312,7 +317,9 @@ def stars_counter(data):
     Count total stars in repositories owned by me
     """
     total_stars = 0
-    for node in data: total_stars += node['node']['stargazers']['totalCount']
+    for node in data:
+        if node is not None and node.get('node') is not None:
+            total_stars += node['node']['stargazers']['totalCount']
     return total_stars
 
 
@@ -445,7 +452,7 @@ if __name__ == '__main__':
     # define global variable for owner ID and calculate user's creation date
     # e.g {'id': 'MDQ6VXNlcjU3MzMxMTM0'} and 2019-11-03T21:15:07Z for username 'Pushpendra766'
     user_data, user_time = perf_counter(user_getter, USER_NAME)
-    OWNER_ID, acc_date = user_data
+    OWNER_ID, acc_date = user_data[0]['id'], user_data[1]
     formatter('account data', user_time)
     age_data, age_time = perf_counter(daily_readme, datetime.datetime(2001, 6, 22))
     formatter('age calculation', age_time)
