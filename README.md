@@ -1,71 +1,72 @@
-<h1 align="center">Hi 👋, I'm Pushpendra</h1>
-<h3 align="center">A passionate Web Developer and Robotics Enthusiast from India</h3>
+<table>
+<tr>
+<td valign="top">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=pushpendra766&label=Profile%20views&color=0e75b6&style=flat" alt="pushpendra766" /> 
-</p>
+```
+                                        
+                                        
+             ~,ll[<?)1[i>>it            
+          ;:^`^`.':>i>i>-]I__1c         
+        "'..`:Ii_i!l-<[+_]<,<>>?%       
+       `.."^>!IiI'      ':;ilIl,IvQ     
+     ^'  .``''`,:I_1|fXL0Y1`  ^l,}};"   
+     '  . ':l?tvLpa#8B@@@@@8Q~    `^l   
+    , .  '_cph#W%@@@$$$$$$$$@%{ ^'l_    
+    "'.  <q8@@@@@@@@@@@@@$@@@@q`.'^>    
+   l!'.  /#az|~>~}nbWMwX)~>~jQa]`";     
+    ~"  "mMC/}_I,I_rd0[!,:!~(UWX':>     
+     :. >ootxvxt+~J&$@az<]rQmZoW"<v     
+     #1`-M@@@@B%@@$@$$@$$$@@@@@@~|v     
+     aQb[&@@@@@BWB@$@@$$@m#@@@@@fOC     
+     $B0}hMh*omcZ*mO*#*0q%wvJwo&xk%     
+     $Wb\JwdbU+}{!`.:<;+|[-jZnL*\b$     
+     MB@u}tZ#x "_(cvXzOL|>i`Im0J[h      
+      M&1<rJYZXdh*#doo#*MMMMm0Qt\k      
+        [i;}zCO&BB*/i,^iC@@8wz\i1       
+         {>^i~<]L####kM%@%m/[l^;        
+          #[..'^:il~<<i+_+:'^:,         
+       |I mM/I`'..        ."O@          
+      [l^ WMpX|ii;,,'``^l}(0%a          
+    $Q;"^'-#hZYrn)}]-i!|OOd#%v+t        
+brBrcX^```';0wOJUznuxrvpwhaW8q^/b#&~    
+ZJ}BmOt'`^`. ?zznuvvunr0dbha*|">[C*+fBqk
+/z:J#WxX''''.."[jxxxxfj0kpk*Q:,!~\]kiqZ~
+```
 
+</td>
+<td valign="top">
 
--   🔭 I’m currently working on **React JS**
+```
+pushpendra@github
+------------------
+OS: ................. Windows 10, GitHub-native
+Host: ................ scorelab (GSoC '23)
+IDE: .................. VS Code, Atom
 
--   🌱 I’m currently learning **Advanced React and Backend Development**
+Languages.Programming: .. Python, JavaScript, C++
+Languages.Framework: .... React, Next.js, React Native
+Languages.Style: ........ HTML5, CSS3, SCSS, Tailwind, Bootstrap
+Languages.Real: ......... English, Hindi
 
--   👯 I’m looking to collaborate on **Open Source project**
+Currently.Working: ...... React JS
+Currently.Learning: ..... Advanced React & Backend Dev
+Currently.Collabing: .... Open Source projects
+Ask.Me.About: ........... Python, JavaScript, Arduino
 
--   💬 Ask me about **Python, JavaScript and Arduino**
+- Contact -
+Email: ................. pushpendrachandravanshi4@gmail.com
+LinkedIn: ............... pushpendra766
+Twitter/X: .............. @__pushpendra__
+Portfolio: .............. pushpendra766.github.io/cv
+Location: ............... Bangalore, Karnataka, India
 
--   📫 How to reach me **pushpendrachandravanshi4@gmail.com**
+- GitHub Stats -
+Repos: ................. 78
+Stars: .................. 22
+Followers: .............. 44 | Following: 10
+Highlights: ............. SIH'23 Winner 🏆, GSoC'23 @scorelab
+```
 
--   🌐 Web: [Pushpendra Chandravanshi](http://pushpendra766.github.io/cv)
-
-### 🔗 Connect with me:
-
-[![Gmail Badge](https://img.shields.io/badge/-Email-D14836?logo=Gmail&logoColor=white&link=mailto:pushpendrachandravanshi4@gmail.com)](mailto:pushpendrachandravanshi4@gmail.com)
-[![Linkedin Badge](https://img.shields.io/badge/-Pushpendra%20Chandravanshi-blue?logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pushpendra-chandravanshi-0938a5166/)](https://www.linkedin.com/in/pushpendra-chandravanshi-0938a5166/)
-[![Twitter](https://img.shields.io/badge/@__pushpendra__-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/__pushpendra__)
-[![Linktree Badge](https://img.shields.io/badge/-Linktree-36d15?logo=Link&logoColor=white)](https://linktr.ee/pushpendra766)
-
-### ⚡ Languages and Frameworks:
-
-[![C++](https://img.shields.io/badge/c++-%2300599C.svg?logo=c%2B%2B&logoColor=white)](#)
-[![Python](https://img.shields.io/badge/-Python-yellow?logo=Python)](#)
-[![JavaScript](https://img.shields.io/badge/-JavaScript-blue?logo=javascript)](#)
-[![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)](#)
-[![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3)](#)
-[![React](https://img.shields.io/badge/-React-darkblue?logo=React)](#)
-[![Next](https://img.shields.io/badge/-Next-gray?logo=Next)](#)
-[![Scss](https://img.shields.io/badge/-Scss-pink?logo=sass)](#)
-[![React Native](https://img.shields.io/badge/-React%20Native-darkblue?logo=React)](#)
-[![Tailwindcss](https://img.shields.io/badge/-Tailwindcss-blue?logo=tailwindcss&logoColor=white)](#)
-[![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?logo=bootstrap)](#)
-[![Cypress](https://img.shields.io/badge/-Cypress?logo=cypress)](#)
-[![Firebase](https://img.shields.io/badge/-Firebase?logo=firebase)](#)
-
-### 🛠 Software and tools:
-
-<p>
-  <a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?logo=visual-studio-code&logoColor=white"></a>
-  <a href="#"><img alt="" src="https://img.shields.io/badge/Atom-%2366595C.svg?logo=atom&logoColor=white"></a>
-  <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git-F05033.svg?logo=git&logoColor=white"></a>
-  <a href="#"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717.svg?logo=github&logoColor=white"></a>
-  <a href="#"><img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white"></a>
-  <a href="#"><img alt="" src="https://img.shields.io/badge/Edge-0078D7?logo=Microsoft-edge&logoColor=white"></a>
-  <a href="#"><img alt="Brave" src="https://img.shields.io/badge/-Brave-FB542B?logo=brave&logoColor=white"></a>
-  <a href="#"><img alt="Chrome" src="https://img.shields.io/badge/-Chrome-4a8af4?logo=google%20chrome&logoColor=white"></a>
-  <a href="#"><img alt="" src="https://img.shields.io/badge/Firefox-FF7139?logo=Firefox-Browser&logoColor=white"></a>
-  <a href="#"><img alt="" src="https://img.shields.io/badge/Tor-7D4698?logo=Tor-Browser&logoColor=white"></a>
-  <a href="#"><img alt="" src="https://img.shields.io/badge/DuckDuckGo-DE5833?logo=DuckDuckGo&logoColor=white"></a>
-  <a href="#"><img alt="" src="https://img.shields.io/badge/google-4285F4?logo=google&logoColor=white"></a>
-  <a href="#"><img alt="OBS Studio" src="https://img.shields.io/badge/-OBS%20Studio-302E31?logo=obs-studio&logoColor=white"></a>
-  <a href="#"><img alt="Stack Overflow" src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?logo=stack-overflow&logoColor=white"></a>
-  <a href="#"><img alt="Canva" src="https://img.shields.io/badge/Canva-%2300C4CC.svg?logo=Canva&logoColor=white"></a>
-  <a href="#"><img alt="Canva" src="https://img.shields.io/badge/-Figma-3655d1?logo=figma&logoColor=white"></a>
-</p>
-
-<br/>
-<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=pushpendra766&show_icons=true&locale=en&layout=compact" alt="pushpendra766" /></p>
-<br/>
-<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=pushpendra766&show_icons=true&locale=en" alt="pushpendra766" /></p>
-<br/>
-<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pushpendra766&" alt="pushpendra766" /></p>
-
-### Show ❤️ by 🌟 my [repositories](https://github.com/pushpendra766?tab=repositories)!
+</td>
+</tr>
+</table>
