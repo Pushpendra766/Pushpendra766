@@ -326,7 +326,7 @@ def stars_counter(data):
 SVG_NS = 'http://www.w3.org/2000/svg'
 CHAR_WIDTH = 10.35  # monospace char width at 17px with Consolas 109% size-adjust
 ASCII_X = 8
-TEXT_X = 400
+TEXT_X = 470
 RIGHT_PADDING = 20
 
 
@@ -374,6 +374,9 @@ def svg_resize(root):
     background = root.find(f".//{{{SVG_NS}}}rect")
     if background is not None:
         background.set('width', f'{width}px')
+    ts = root.find(f".//*[@id='last_updated']")
+    if ts is not None:
+        ts.set('x', str(width // 2))
 
 
 def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
@@ -382,7 +385,7 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
     """
     tree = etree.parse(filename)
     root = tree.getroot()
-    justify_format(root, 'age_data', age_data.split(' 🎂')[0], 26)
+    justify_format(root, 'age_data', age_data.split(' 🎂')[0], 57)
     justify_format(root, 'commit_data', commit_data, 31)
     justify_format(root, 'star_data', star_data, 22)
     justify_format(root, 'repo_data', repo_data, 6)
@@ -391,6 +394,10 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
     justify_format(root, 'loc_data', loc_data[2], 13)
     justify_format(root, 'loc_add', loc_data[0])
     justify_format(root, 'loc_del', loc_data[1], 7)
+    now = datetime.datetime.now()
+    time_str = now.strftime('%I:%M %p').lstrip('0')
+    timestamp = f"Updated {now.strftime('%b')} {now.day}, {now.year} {time_str}"
+    find_and_replace(root, 'last_updated', timestamp)
     svg_resize(root)
     tree.write(filename, encoding='utf-8', xml_declaration=True)
 
